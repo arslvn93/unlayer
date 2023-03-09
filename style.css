@@ -1,0 +1,22 @@
+#editor {
+  height: 100vh;
+}
+button {
+			color: #ffffff;
+			background-color: #373a3c;
+			font-size: 19px;
+			border: 4px solid #ffffff;
+			padding: 15px 30px;
+			letter-spacing: 1px;
+			cursor: pointer
+		}
+		button:hover {
+			color: #373a3c;
+			background-color: #ffffff;
+		}
+
+
+.section {
+  height: 250px;
+  width: 100%;
+}
