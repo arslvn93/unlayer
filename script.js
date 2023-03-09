@@ -45,1556 +45,1614 @@ unlayer.addEventListener("design:updated", function (data) {
 function loadTemplate(id) {
   if (id == 1) {
     unlayer.loadDesign({
- "body": {
-        "id": "hO-OA7diG8",
-        "rows": [{
-            "id": "2MAEOdDn9f",
-            "cells": [2, 1],
-            "columns": [{
-                "id": "6-ygJ6xwMn",
-                "contents": [{
-                    "id": "-DJMwYH19d",
-                    "type": "image",
-                    "values": {
-                        "containerPadding": "10px",
-                        "anchor": "",
-                        "src": {
-                            "url": "https://editor.ne16.com/condos/259d2e775d4ab3cc879165b2e83eefbc.png",
-                            "width": 1600,
-                            "height": 339
-                        },
-                        "textAlign": "center",
-                        "altText": "",
-                        "action": {
-                            "name": "web",
-                            "values": {
-                                "href": "",
-                                "target": "_blank"
-                            }
-                        },
-                        "hideDesktop": false,
-                        "displayCondition": null,
-                        "_meta": {
-                            "htmlID": "u_content_image_1",
-                            "htmlClassNames": "u_content_image"
-                        },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true,
-                        "_override": {
-                            "mobile": {
-                                "containerPadding": "5px 10px"
-                            }
-                        }
-                    }
-                }],
-                "values": {
-                    "_meta": {
-                        "htmlID": "u_column_1",
-                        "htmlClassNames": "u_column"
-                    },
-                    "border": {},
-                    "padding": "0px",
-                    "backgroundColor": ""
-                }
-            }, {
-                "id": "0kkjAOEbwn",
-                "contents": [{
-                    "id": "AdGIZu4bUN",
-                    "type": "text",
-                    "values": {
-                        "containerPadding": "21px 10px 10px",
-                        "anchor": "",
-                        "fontFamily": {
-                            "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-                            "label": "Montserrat",
-                            "value": "'Montserrat',sans-serif",
-                            "weights": null,
-                            "defaultFont": true
-                        },
-                        "fontSize": "12px",
-                        "color": "#ffffff",
-                        "textAlign": "right",
-                        "lineHeight": "140%",
-                        "linkStyle": {
-                            "inherit": true,
-                            "linkColor": "#0000ee",
-                            "linkHoverColor": "#0000ee",
-                            "linkUnderline": true,
-                            "linkHoverUnderline": true
-                        },
-                        "hideDesktop": false,
-                        "displayCondition": null,
-                        "_meta": {
-                            "htmlID": "u_content_text_1",
-                            "htmlClassNames": "u_content_text"
-                        },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true,
-                        "text": "<p style=\"line-height: 140%;\"><strong>Agent Name</strong></p>\n<p style=\"line-height: 140%;\">Agent email</p>\n<p style=\"line-height: 140%;\">Agent phone</p>",
-                        "_override": {
-                            "mobile": {
-                                "textAlign": "center",
-                                "fontSize": "10px",
-                                "containerPadding": "0px 10px"
-                            }
-                        }
-                    }
-                }],
-                "values": {
-                    "_meta": {
-                        "htmlID": "u_column_3",
-                        "htmlClassNames": "u_column"
-                    },
-                    "border": {},
-                    "padding": "0px",
-                    "borderRadius": "0px",
-                    "backgroundColor": ""
-                }
-            }],
-            "values": {
-                "displayCondition": null,
-                "columns": false,
-                "backgroundColor": "",
-                "columnsBackgroundColor": "#07364b",
-                "backgroundImage": {
-                    "url": "",
-                    "fullWidth": true,
-                    "repeat": "no-repeat",
-                    "size": "custom",
-                    "position": "center"
-                },
-                "padding": "0px",
-                "anchor": "",
-                "hideDesktop": false,
-                "_meta": {
-                    "htmlID": "u_row_1",
-                    "htmlClassNames": "u_row"
-                },
-                "selectable": true,
-                "draggable": true,
-                "duplicatable": true,
-                "deletable": true,
-                "hideable": true
-            }
-        }, {
-            "id": "Uyhb3LJsvf",
-            "cells": [1],
-            "columns": [{
-                "id": "NTN7_8DY83",
-                "contents": [{
-                    "id": "3WRKIITVli",
-                    "type": "text",
-                    "values": {
-                        "containerPadding": "10px",
-                        "anchor": "",
-                        "fontFamily": {
-                            "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-                            "label": "Montserrat",
-                            "value": "'Montserrat',sans-serif",
-                            "weights": null,
-                            "defaultFont": true
-                        },
-                        "fontWeight": 700,
-                        "fontSize": "19px",
-                        "color": "#ffffff",
-                        "textAlign": "center",
-                        "lineHeight": "140%",
-                        "linkStyle": {
-                            "inherit": true,
-                            "linkColor": "#0000ee",
-                            "linkHoverColor": "#0000ee",
-                            "linkUnderline": true,
-                            "linkHoverUnderline": true
-                        },
-                        "hideDesktop": false,
-                        "displayCondition": null,
-                        "_meta": {
-                            "htmlID": "u_content_text_2",
-                            "htmlClassNames": "u_content_text"
-                        },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true,
-                        "text": "<p style=\"line-height: 140%;\">&lt;insert headline description of listing&gt;</p>"
-                    }
-                }],
-                "values": {
-                    "_meta": {
-                        "htmlID": "u_column_2",
-                        "htmlClassNames": "u_column"
-                    },
-                    "border": {},
-                    "padding": "0px",
-                    "borderRadius": "0px",
-                    "backgroundColor": ""
-                }
-            }],
-            "values": {
-                "displayCondition": null,
-                "columns": false,
-                "backgroundColor": "",
-                "columnsBackgroundColor": "#07364b",
-                "backgroundImage": {
-                    "url": "",
-                    "fullWidth": true,
-                    "repeat": "no-repeat",
-                    "size": "custom",
-                    "position": "center"
-                },
-                "padding": "0px",
-                "anchor": "",
-                "hideDesktop": false,
-                "_meta": {
-                    "htmlID": "u_row_2",
-                    "htmlClassNames": "u_row"
-                },
-                "selectable": true,
-                "draggable": true,
-                "duplicatable": true,
-                "deletable": true,
-                "hideable": true
-            }
-        }, {
-            "id": "Bt_YmBLFgI",
-            "cells": [1],
-            "columns": [{
-                "id": "kCnvsyjm8U",
-                "contents": [{
-                    "id": "mNpC3Yu1HR",
-                    "type": "image",
-                    "values": {
-                        "containerPadding": "0px",
-                        "anchor": "",
-                        "src": {
-                            "url": "https://editor.ne16.com/condos/404w_-_565_wilson_ave.jpg",
-                            "width": 2048,
-                            "height": 1365
-                        },
-                        "textAlign": "center",
-                        "altText": "",
-                        "action": {
-                            "name": "web",
-                            "values": {
-                                "href": "",
-                                "target": "_blank"
-                            }
-                        },
-                        "hideDesktop": false,
-                        "displayCondition": null,
-                        "_meta": {
-                            "htmlID": "u_content_image_2",
-                            "htmlClassNames": "u_content_image"
-                        },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true
-                    }
-                }],
-                "values": {
-                    "_meta": {
-                        "htmlID": "u_column_6",
-                        "htmlClassNames": "u_column"
-                    },
-                    "border": {},
-                    "padding": "0px",
-                    "borderRadius": "0px",
-                    "backgroundColor": ""
-                }
-            }],
-            "values": {
-                "displayCondition": null,
-                "columns": false,
-                "backgroundColor": "",
-                "columnsBackgroundColor": "",
-                "backgroundImage": {
-                    "url": "",
-                    "fullWidth": true,
-                    "repeat": "no-repeat",
-                    "size": "custom",
-                    "position": "center"
-                },
-                "padding": "0px",
-                "anchor": "",
-                "hideDesktop": false,
-                "_meta": {
-                    "htmlID": "u_row_3",
-                    "htmlClassNames": "u_row"
-                },
-                "selectable": true,
-                "draggable": true,
-                "duplicatable": true,
-                "deletable": true,
-                "hideable": true
-            }
-        }, {
-            "id": "FEZm_t17SB",
-            "cells": [1],
-            "columns": [{
-                "id": "wFnpnRck3f",
-                "contents": [{
-                    "id": "JpFcCI6IXk",
-                    "type": "text",
-                    "values": {
-                        "containerPadding": "10px 10px 10px 25px",
-                        "anchor": "",
-                        "fontFamily": {
-                            "label": "Montserrat",
-                            "value": "'Montserrat',sans-serif",
-                            "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-                            "defaultFont": true,
-                            "weights": null
-                        },
-                        "textAlign": "left",
-                        "lineHeight": "140%",
-                        "linkStyle": {
-                            "inherit": true,
-                            "linkColor": "#0000ee",
-                            "linkHoverColor": "#0000ee",
-                            "linkUnderline": true,
-                            "linkHoverUnderline": true
-                        },
-                        "hideDesktop": false,
-                        "displayCondition": null,
-                        "_meta": {
-                            "htmlID": "u_content_text_3",
-                            "htmlClassNames": "u_content_text"
-                        },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true,
-                        "text": "<p style=\"line-height: 140%;\">Hello ,</p>\n<p style=\"line-height: 140%;\"> </p>\n<p style=\"line-height: 140%;\">&lt;&lt; Include 1-2 paragraphs about your listing here &gt;&gt;</p>\n<p style=\"line-height: 140%;\"> </p>\n<p style=\"line-height: 140%;\">Interested? Book a showing today! </p>\n<p style=\"line-height: 140%;\"> </p>"
-                    }
-                }, {
-                    "id": "s3yPtXymy-",
-                    "type": "button",
-                    "values": {
-                        "containerPadding": "10px",
-                        "anchor": "",
-                        "href": {
-                            "name": "email",
-                            "values": {
-                                "href": "",
-                                "target": "_blank",
-                                "body": "",
-                                "email": "",
-                                "subject": ""
+        "body": {
+            "id": "hO-OA7diG8",
+            "rows": [{
+                "id": "2MAEOdDn9f",
+                "cells": [2, 1],
+                "columns": [{
+                    "id": "6-ygJ6xwMn",
+                    "contents": [{
+                        "id": "-DJMwYH19d",
+                        "type": "image",
+                        "values": {
+                            "containerPadding": "10px",
+                            "anchor": "",
+                            "src": {
+                                "url": "https://editor.ne16.com/condos/259d2e775d4ab3cc879165b2e83eefbc.png",
+                                "width": 1600,
+                                "height": 339
                             },
-                            "attrs": {
-                                "href": "mailto:{{email}}?subject={{subject}}&body={{body}}"
+                            "textAlign": "center",
+                            "altText": "",
+                            "action": {
+                                "name": "web",
+                                "values": {
+                                    "href": "",
+                                    "target": "_blank"
+                                }
+                            },
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_image_1",
+                                "htmlClassNames": "u_content_image"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true,
+                            "_override": {
+                                "mobile": {
+                                    "containerPadding": "5px 10px"
+                                }
                             }
+                        }
+                    }],
+                    "values": {
+                        "_meta": {
+                            "htmlID": "u_column_1",
+                            "htmlClassNames": "u_column"
                         },
-                        "buttonColors": {
-                            "color": "#FFFFFF",
-                            "backgroundColor": "#e8194b",
-                            "hoverColor": "#FFFFFF",
-                            "hoverBackgroundColor": "#3AAEE0"
-                        },
-                        "size": {
-                            "autoWidth": true,
-                            "width": "100%"
-                        },
-                        "fontFamily": {
-                            "label": "Montserrat",
-                            "value": "'Montserrat',sans-serif",
-                            "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-                            "defaultFont": true,
-                            "weights": null
-                        },
-                        "fontSize": "14px",
-                        "textAlign": "center",
-                        "lineHeight": "120%",
-                        "padding": "10px 20px",
                         "border": {},
-                        "borderRadius": "4px",
-                        "hideDesktop": false,
-                        "displayCondition": null,
-                        "_meta": {
-                            "htmlID": "u_content_button_1",
-                            "htmlClassNames": "u_content_button"
-                        },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true,
-                        "text": "Contact me today",
-                        "calculatedWidth": 166,
-                        "calculatedHeight": 37
+                        "padding": "0px",
+                        "backgroundColor": ""
                     }
-                }],
-                "values": {
-                    "_meta": {
-                        "htmlID": "u_column_7",
-                        "htmlClassNames": "u_column"
-                    },
-                    "border": {
-                        "borderTopStyle": "solid",
-                        "borderTopWidth": "0px",
-                        "borderLeftStyle": "solid",
-                        "borderLeftWidth": "0px",
-                        "borderRightStyle": "solid",
-                        "borderRightWidth": "0px",
-                        "borderBottomStyle": "solid",
-                        "borderBottomWidth": "0px"
-                    },
-                    "padding": "2px",
-                    "borderRadius": "0px",
-                    "backgroundColor": "#ffffff"
-                }
-            }],
-            "values": {
-                "displayCondition": null,
-                "columns": false,
-                "backgroundColor": "",
-                "columnsBackgroundColor": "",
-                "backgroundImage": {
-                    "url": "",
-                    "fullWidth": true,
-                    "repeat": "no-repeat",
-                    "size": "custom",
-                    "position": "center"
-                },
-                "padding": "0px",
-                "anchor": "",
-                "hideDesktop": false,
-                "_meta": {
-                    "htmlID": "u_row_4",
-                    "htmlClassNames": "u_row"
-                },
-                "selectable": true,
-                "draggable": true,
-                "duplicatable": true,
-                "deletable": true,
-                "hideable": true
-            }
-        }, {
-            "id": "PV8YGM0ia_",
-            "cells": [1],
-            "columns": [{
-                "id": "5OgV3c3fIk",
-                "contents": [{
-                    "id": "1kvde4rMDn",
-                    "type": "heading",
-                    "values": {
-                        "containerPadding": "10px",
-                        "anchor": "",
-                        "headingType": "h3",
-                        "fontFamily": {
-                            "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-                            "label": "Montserrat",
-                            "value": "'Montserrat',sans-serif",
-                            "weights": null,
-                            "defaultFont": true
-                        },
-                        "fontWeight": 700,
-                        "fontSize": "18px",
-                        "color": "#ffffff",
-                        "textAlign": "center",
-                        "lineHeight": "140%",
-                        "linkStyle": {
-                            "inherit": true,
-                            "linkColor": "#0000ee",
-                            "linkHoverColor": "#0000ee",
-                            "linkUnderline": true,
-                            "linkHoverUnderline": true
-                        },
-                        "hideDesktop": false,
-                        "displayCondition": null,
-                        "_meta": {
-                            "htmlID": "u_content_heading_1",
-                            "htmlClassNames": "u_content_heading"
-                        },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true,
-                        "text": "Listing Details"
-                    }
-                }],
-                "values": {
-                    "_meta": {
-                        "htmlID": "u_column_13",
-                        "htmlClassNames": "u_column"
-                    },
-                    "border": {},
-                    "padding": "0px",
-                    "borderRadius": "0px",
-                    "backgroundColor": ""
-                }
-            }],
-            "values": {
-                "displayCondition": null,
-                "columns": false,
-                "backgroundColor": "",
-                "columnsBackgroundColor": "#07364b",
-                "backgroundImage": {
-                    "url": "",
-                    "fullWidth": true,
-                    "repeat": "no-repeat",
-                    "size": "custom",
-                    "position": "center"
-                },
-                "padding": "10px 0px 0px",
-                "anchor": "",
-                "hideDesktop": false,
-                "_meta": {
-                    "htmlID": "u_row_7",
-                    "htmlClassNames": "u_row"
-                },
-                "selectable": true,
-                "draggable": true,
-                "duplicatable": true,
-                "deletable": true,
-                "hideable": true
-            }
-        }, {
-            "id": "tA7h-PvyKJ",
-            "cells": [58.4, 41.6],
-            "columns": [{
-                "id": "l6KF7dhiTr",
-                "contents": [{
-                    "id": "I3BJfuTAJa",
-                    "type": "image",
-                    "values": {
-                        "containerPadding": "10px",
-                        "anchor": "",
-                        "src": {
-                            "url": "https://editor.ne16.com/condos/404W_-_565_Wilson_Ave.jpg",
-                            "width": 2048,
-                            "height": 1365
-                        },
-                        "textAlign": "center",
-                        "altText": "",
-                        "action": {
-                            "name": "web",
-                            "values": {
-                                "href": "",
-                                "target": "_blank"
+                }, {
+                    "id": "0kkjAOEbwn",
+                    "contents": [{
+                        "id": "AdGIZu4bUN",
+                        "type": "text",
+                        "values": {
+                            "containerPadding": "21px 10px 10px",
+                            "anchor": "",
+                            "fontFamily": {
+                                "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+                                "label": "Montserrat",
+                                "value": "'Montserrat',sans-serif",
+                                "weights": null,
+                                "defaultFont": true
+                            },
+                            "fontSize": "12px",
+                            "color": "#ffffff",
+                            "textAlign": "right",
+                            "lineHeight": "140%",
+                            "linkStyle": {
+                                "inherit": true,
+                                "linkColor": "#0000ee",
+                                "linkHoverColor": "#0000ee",
+                                "linkUnderline": true,
+                                "linkHoverUnderline": true
+                            },
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_text_1",
+                                "htmlClassNames": "u_content_text"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true,
+                            "text": "<p style=\"line-height: 140%;\"><strong>{{agent_full_name}}</strong></p>\n<p style=\"line-height: 140%;\">{{agent_phone}}</p>\n<p style=\"line-height: 140%;\">{{agent_email}}</p>",
+                            "_override": {
+                                "mobile": {
+                                    "fontSize": "10px",
+                                    "textAlign": "center",
+                                    "containerPadding": "0px 10px"
+                                }
                             }
-                        },
-                        "hideDesktop": false,
-                        "displayCondition": null,
+                        }
+                    }],
+                    "values": {
                         "_meta": {
-                            "htmlID": "u_content_image_3",
-                            "htmlClassNames": "u_content_image"
+                            "htmlID": "u_column_3",
+                            "htmlClassNames": "u_column"
                         },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true
+                        "border": {},
+                        "padding": "0px",
+                        "borderRadius": "0px",
+                        "backgroundColor": ""
                     }
                 }],
                 "values": {
-                    "_meta": {
-                        "htmlID": "u_column_8",
-                        "htmlClassNames": "u_column"
-                    },
-                    "border": {},
-                    "padding": "0px",
-                    "borderRadius": "0px",
-                    "backgroundColor": "#ffffff"
-                }
-            }, {
-                "id": "1rWDN3KXH_",
-                "contents": [{
-                    "id": "17I7DQjL2E",
-                    "type": "text",
-                    "values": {
-                        "containerPadding": "10px",
-                        "anchor": "",
-                        "fontFamily": {
-                            "label": "Montserrat",
-                            "value": "'Montserrat',sans-serif",
-                            "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-                            "defaultFont": true,
-                            "weights": null
-                        },
-                        "fontWeight": 700,
-                        "fontSize": "21px",
-                        "textAlign": "left",
-                        "lineHeight": "140%",
-                        "linkStyle": {
-                            "inherit": true,
-                            "linkColor": "#0000ee",
-                            "linkHoverColor": "#0000ee",
-                            "linkUnderline": true,
-                            "linkHoverUnderline": true
-                        },
-                        "hideDesktop": false,
-                        "displayCondition": null,
-                        "_meta": {
-                            "htmlID": "u_content_text_5",
-                            "htmlClassNames": "u_content_text"
-                        },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true,
-                        "text": "<p style=\"line-height: 140%;\">$XXX,XXX</p>"
-                    }
-                }, {
-                    "id": "OJn_Q0USd0",
-                    "type": "text",
-                    "values": {
-                        "containerPadding": "0px 10px",
-                        "anchor": "",
-                        "fontFamily": {
-                            "label": "Montserrat",
-                            "value": "'Montserrat',sans-serif",
-                            "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-                            "defaultFont": true,
-                            "weights": null
-                        },
-                        "fontWeight": 400,
-                        "fontSize": "14px",
-                        "textAlign": "left",
-                        "lineHeight": "140%",
-                        "linkStyle": {
-                            "inherit": true,
-                            "linkColor": "#0000ee",
-                            "linkHoverColor": "#0000ee",
-                            "linkUnderline": true,
-                            "linkHoverUnderline": true
-                        },
-                        "hideDesktop": false,
-                        "displayCondition": null,
-                        "_meta": {
-                            "htmlID": "u_content_text_7",
-                            "htmlClassNames": "u_content_text"
-                        },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true,
-                        "text": "<p style=\"line-height: 140%;\"><span style=\"color: #236fa1; line-height: 19.6px;\">Address Here</span></p>"
-                    }
-                }, {
-                    "id": "ouslXULNHT",
-                    "type": "text",
-                    "values": {
-                        "containerPadding": "1px 10px 10px",
-                        "anchor": "",
-                        "fontFamily": {
-                            "label": "Montserrat",
-                            "value": "'Montserrat',sans-serif",
-                            "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-                            "defaultFont": true,
-                            "weights": null
-                        },
-                        "textAlign": "left",
-                        "lineHeight": "140%",
-                        "linkStyle": {
-                            "inherit": true,
-                            "linkColor": "#0000ee",
-                            "linkHoverColor": "#0000ee",
-                            "linkUnderline": true,
-                            "linkHoverUnderline": true
-                        },
-                        "hideDesktop": false,
-                        "displayCondition": null,
-                        "_meta": {
-                            "htmlID": "u_content_text_4",
-                            "htmlClassNames": "u_content_text"
-                        },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true,
-                        "text": "<p style=\"line-height: 140%;\">X Bed | X Bath | X Parking<br />XXXX sqft</p>\n<p style=\"line-height: 140%;\"> </p>\n<p style=\"line-height: 140%;\">Exposure: XX<br />Area: XX</p>"
-                    }
-                }, {
-                    "id": "8jDyPmtPkW",
-                    "type": "text",
-                    "values": {
-                        "containerPadding": "0px 10px 5px",
-                        "anchor": "",
-                        "fontFamily": {
-                            "label": "Montserrat",
-                            "value": "'Montserrat',sans-serif",
-                            "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-                            "defaultFont": true,
-                            "weights": null
-                        },
-                        "fontWeight": 700,
-                        "fontSize": "14px",
-                        "textAlign": "left",
-                        "lineHeight": "140%",
-                        "linkStyle": {
-                            "inherit": true,
-                            "linkColor": "#0000ee",
-                            "linkHoverColor": "#0000ee",
-                            "linkUnderline": true,
-                            "linkHoverUnderline": true
-                        },
-                        "hideDesktop": false,
-                        "displayCondition": null,
-                        "_meta": {
-                            "htmlID": "u_content_text_6",
-                            "htmlClassNames": "u_content_text"
-                        },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true,
-                        "text": "<p style=\"line-height: 140%;\"><span style=\"color: #236fa1; line-height: 19.6px;\">Request a viewing</span></p>"
-                    }
-                }],
-                "values": {
-                    "_meta": {
-                        "htmlID": "u_column_9",
-                        "htmlClassNames": "u_column"
-                    },
-                    "border": {},
-                    "padding": "0px",
-                    "borderRadius": "0px",
-                    "backgroundColor": "#ffffff"
-                }
-            }],
-            "values": {
-                "displayCondition": null,
-                "columns": false,
-                "backgroundColor": "",
-                "columnsBackgroundColor": "",
-                "backgroundImage": {
-                    "url": "",
-                    "fullWidth": true,
-                    "repeat": "no-repeat",
-                    "size": "custom",
-                    "position": "center"
-                },
-                "padding": "0px",
-                "anchor": "",
-                "hideDesktop": false,
-                "_meta": {
-                    "htmlID": "u_row_5",
-                    "htmlClassNames": "u_row"
-                },
-                "selectable": true,
-                "draggable": true,
-                "duplicatable": true,
-                "deletable": true,
-                "hideable": true
-            }
-        }, {
-            "id": "Y7nBTicU9a",
-            "cells": [1, 1, 1],
-            "columns": [{
-                "id": "LzF63xHRop",
-                "contents": [{
-                    "id": "ywMX8IGc0G",
-                    "type": "image",
-                    "values": {
-                        "containerPadding": "5px",
-                        "anchor": "",
-                        "src": {
-                            "url": "https://editor.ne16.com/condos/404w_-_565_wilson_ave_-_2.jpg",
-                            "width": 2048,
-                            "height": 1365
-                        },
-                        "textAlign": "center",
-                        "altText": "",
-                        "action": {
-                            "name": "web",
-                            "values": {
-                                "href": "",
-                                "target": "_blank"
-                            }
-                        },
-                        "hideDesktop": false,
-                        "displayCondition": null,
-                        "_meta": {
-                            "htmlID": "u_content_image_4",
-                            "htmlClassNames": "u_content_image"
-                        },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true
-                    }
-                }],
-                "values": {
-                    "_meta": {
-                        "htmlID": "u_column_10",
-                        "htmlClassNames": "u_column"
-                    },
-                    "border": {},
-                    "padding": "0px 0px 10px",
-                    "borderRadius": "0px",
+                    "displayCondition": null,
+                    "columns": false,
                     "backgroundColor": "",
-                    "_override": {
-                        "mobile": {
-                            "padding": "0px"
-                        }
-                    }
+                    "columnsBackgroundColor": "#07364b",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": "no-repeat",
+                        "size": "custom",
+                        "position": "center"
+                    },
+                    "padding": "0px",
+                    "anchor": "",
+                    "hideDesktop": false,
+                    "_meta": {
+                        "htmlID": "u_row_1",
+                        "htmlClassNames": "u_row"
+                    },
+                    "selectable": true,
+                    "draggable": true,
+                    "duplicatable": true,
+                    "deletable": true,
+                    "hideable": true
                 }
             }, {
-                "id": "vp2gRi05bG",
-                "contents": [{
-                    "id": "ibqBlg3bu6",
-                    "type": "image",
-                    "values": {
-                        "containerPadding": "5px",
-                        "anchor": "",
-                        "src": {
-                            "url": "https://editor.ne16.com/condos/a2358b7eed5c57a85709b33e889bb6ed.png",
-                            "width": 2048,
-                            "height": 1297
-                        },
-                        "textAlign": "center",
-                        "altText": "",
-                        "action": {
-                            "name": "web",
-                            "values": {
-                                "href": "",
-                                "target": "_blank"
-                            }
-                        },
-                        "hideDesktop": false,
-                        "displayCondition": null,
-                        "_meta": {
-                            "htmlID": "u_content_image_5",
-                            "htmlClassNames": "u_content_image"
-                        },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true
-                    }
-                }],
-                "values": {
-                    "_meta": {
-                        "htmlID": "u_column_11",
-                        "htmlClassNames": "u_column"
-                    },
-                    "border": {},
-                    "padding": "0px",
-                    "borderRadius": "0px",
-                    "backgroundColor": ""
-                }
-            }, {
-                "id": "P-oJxoRzzw",
-                "contents": [{
-                    "id": "-4rqeSmnoc",
-                    "type": "image",
-                    "values": {
-                        "containerPadding": "5px",
-                        "anchor": "",
-                        "src": {
-                            "url": "https://editor.ne16.com/condos/404w_-_565_wilson_ave-8.jpg",
-                            "width": 2048,
-                            "height": 1365
-                        },
-                        "textAlign": "center",
-                        "altText": "",
-                        "action": {
-                            "name": "web",
-                            "values": {
-                                "href": "",
-                                "target": "_blank"
-                            }
-                        },
-                        "hideDesktop": false,
-                        "displayCondition": null,
-                        "_meta": {
-                            "htmlID": "u_content_image_6",
-                            "htmlClassNames": "u_content_image"
-                        },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true
-                    }
-                }],
-                "values": {
-                    "_meta": {
-                        "htmlID": "u_column_12",
-                        "htmlClassNames": "u_column"
-                    },
-                    "border": {},
-                    "padding": "0px",
-                    "borderRadius": "0px",
-                    "backgroundColor": ""
-                }
-            }],
-            "values": {
-                "displayCondition": null,
-                "columns": false,
-                "backgroundColor": "",
-                "columnsBackgroundColor": "#ffffff",
-                "backgroundImage": {
-                    "url": "",
-                    "fullWidth": true,
-                    "repeat": "no-repeat",
-                    "size": "custom",
-                    "position": "center"
-                },
-                "padding": "0px",
-                "anchor": "",
-                "hideDesktop": false,
-                "_meta": {
-                    "htmlID": "u_row_6",
-                    "htmlClassNames": "u_row"
-                },
-                "selectable": true,
-                "draggable": true,
-                "duplicatable": true,
-                "deletable": true,
-                "hideable": true
-            }
-        }, {
-            "id": "DxBz88bsPQ",
-            "cells": [1],
-            "columns": [{
-                "id": "8fR9Bp7sgp",
-                "contents": [{
-                    "id": "BNJi5vwjp5",
-                    "type": "heading",
-                    "values": {
-                        "containerPadding": "10px",
-                        "anchor": "",
-                        "headingType": "h3",
-                        "fontFamily": {
-                            "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-                            "label": "Montserrat",
-                            "value": "'Montserrat',sans-serif",
-                            "weights": null,
-                            "defaultFont": true
-                        },
-                        "fontWeight": 700,
-                        "fontSize": "18px",
-                        "color": "#ffffff",
-                        "textAlign": "center",
-                        "lineHeight": "140%",
-                        "linkStyle": {
-                            "inherit": true,
-                            "linkColor": "#0000ee",
-                            "linkHoverColor": "#0000ee",
-                            "linkUnderline": true,
-                            "linkHoverUnderline": true
-                        },
-                        "hideDesktop": false,
-                        "displayCondition": null,
-                        "_meta": {
-                            "htmlID": "u_content_heading_2",
-                            "htmlClassNames": "u_content_heading"
-                        },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true,
-                        "text": "3D Tour"
-                    }
-                }],
-                "values": {
-                    "_meta": {
-                        "htmlID": "u_column_14",
-                        "htmlClassNames": "u_column"
-                    },
-                    "border": {},
-                    "padding": "0px",
-                    "borderRadius": "0px",
-                    "backgroundColor": ""
-                }
-            }],
-            "values": {
-                "displayCondition": null,
-                "columns": false,
-                "backgroundColor": "",
-                "columnsBackgroundColor": "#07364b",
-                "backgroundImage": {
-                    "url": "",
-                    "fullWidth": true,
-                    "repeat": "no-repeat",
-                    "size": "custom",
-                    "position": "center"
-                },
-                "padding": "10px 0px 0px",
-                "anchor": "",
-                "hideDesktop": false,
-                "_meta": {
-                    "htmlID": "u_row_8",
-                    "htmlClassNames": "u_row"
-                },
-                "selectable": true,
-                "draggable": true,
-                "duplicatable": true,
-                "deletable": true,
-                "hideable": true
-            }
-        }, {
-            "id": "jXkh5rqiZw",
-            "cells": [1],
-            "columns": [{
-                "id": "-iJA1UhdNg",
-                "contents": [{
-                    "id": "3mpgoeSr_b",
-                    "type": "image",
-                    "values": {
-                        "containerPadding": "20px",
-                        "anchor": "",
-                        "src": {
-                            "url": "https://editor.ne16.com/condos/Video-tour.jpg",
-                            "width": 1361,
-                            "height": 628
-                        },
-                        "textAlign": "center",
-                        "altText": "",
-                        "action": {
-                            "name": "web",
-                            "values": {
-                                "href": "",
-                                "target": "_blank"
-                            }
-                        },
-                        "hideDesktop": false,
-                        "displayCondition": null,
-                        "_meta": {
-                            "htmlID": "u_content_image_7",
-                            "htmlClassNames": "u_content_image"
-                        },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true
-                    }
-                }],
-                "values": {
-                    "_meta": {
-                        "htmlID": "u_column_16",
-                        "htmlClassNames": "u_column"
-                    },
-                    "border": {},
-                    "padding": "0px",
-                    "borderRadius": "0px",
-                    "backgroundColor": ""
-                }
-            }],
-            "values": {
-                "displayCondition": null,
-                "columns": false,
-                "backgroundColor": "",
-                "columnsBackgroundColor": "#ffffff",
-                "backgroundImage": {
-                    "url": "",
-                    "fullWidth": true,
-                    "repeat": "no-repeat",
-                    "size": "custom",
-                    "position": "center"
-                },
-                "padding": "0px",
-                "anchor": "",
-                "hideDesktop": false,
-                "_meta": {
-                    "htmlID": "u_row_10",
-                    "htmlClassNames": "u_row"
-                },
-                "selectable": true,
-                "draggable": true,
-                "duplicatable": true,
-                "deletable": true,
-                "hideable": true
-            }
-        }, {
-            "id": "Gh2DFwTUZ9",
-            "cells": [1],
-            "columns": [{
-                "id": "CBo_5dxqSC",
-                "contents": [{
-                    "id": "N5FgZO9Ycc",
-                    "type": "heading",
-                    "values": {
-                        "containerPadding": "10px",
-                        "anchor": "",
-                        "headingType": "h3",
-                        "fontFamily": {
-                            "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-                            "label": "Montserrat",
-                            "value": "'Montserrat',sans-serif",
-                            "weights": null,
-                            "defaultFont": true
-                        },
-                        "fontWeight": 700,
-                        "fontSize": "18px",
-                        "color": "#ffffff",
-                        "textAlign": "center",
-                        "lineHeight": "140%",
-                        "linkStyle": {
-                            "inherit": true,
-                            "linkColor": "#0000ee",
-                            "linkHoverColor": "#0000ee",
-                            "linkUnderline": true,
-                            "linkHoverUnderline": true
-                        },
-                        "hideDesktop": false,
-                        "displayCondition": null,
-                        "_meta": {
-                            "htmlID": "u_content_heading_3",
-                            "htmlClassNames": "u_content_heading"
-                        },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true,
-                        "text": "Location"
-                    }
-                }],
-                "values": {
-                    "_meta": {
-                        "htmlID": "u_column_17",
-                        "htmlClassNames": "u_column"
-                    },
-                    "border": {},
-                    "padding": "0px",
-                    "borderRadius": "0px",
-                    "backgroundColor": ""
-                }
-            }],
-            "values": {
-                "displayCondition": null,
-                "columns": false,
-                "backgroundColor": "",
-                "columnsBackgroundColor": "#07364b",
-                "backgroundImage": {
-                    "url": "",
-                    "fullWidth": true,
-                    "repeat": "no-repeat",
-                    "size": "custom",
-                    "position": "center"
-                },
-                "padding": "10px 0px 0px",
-                "anchor": "",
-                "hideDesktop": false,
-                "_meta": {
-                    "htmlID": "u_row_11",
-                    "htmlClassNames": "u_row"
-                },
-                "selectable": true,
-                "draggable": true,
-                "duplicatable": true,
-                "deletable": true,
-                "hideable": true
-            }
-        }, {
-            "id": "Gtjt8jboOl",
-            "cells": [1],
-            "columns": [{
-                "id": "jQwqOVnhKH",
-                "contents": [{
-                    "id": "AGhbJLQuZj",
-                    "type": "image",
-                    "values": {
-                        "containerPadding": "20px",
-                        "anchor": "",
-                        "src": {
-                            "url": "https://editor.ne16.com/condos/the-station-condos-555-565-wilson-ave-original-2.jpeg",
-                            "width": 1600,
-                            "height": 1068
-                        },
-                        "textAlign": "center",
-                        "altText": "",
-                        "action": {
-                            "name": "web",
-                            "values": {
-                                "href": "",
-                                "target": "_blank"
-                            }
-                        },
-                        "hideDesktop": false,
-                        "displayCondition": null,
-                        "_meta": {
-                            "htmlID": "u_content_image_8",
-                            "htmlClassNames": "u_content_image"
-                        },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true
-                    }
-                }],
-                "values": {
-                    "_meta": {
-                        "htmlID": "u_column_18",
-                        "htmlClassNames": "u_column"
-                    },
-                    "border": {},
-                    "padding": "0px",
-                    "borderRadius": "0px",
-                    "backgroundColor": ""
-                }
-            }],
-            "values": {
-                "displayCondition": null,
-                "columns": false,
-                "backgroundColor": "",
-                "columnsBackgroundColor": "#ffffff",
-                "backgroundImage": {
-                    "url": "",
-                    "fullWidth": true,
-                    "repeat": "no-repeat",
-                    "size": "custom",
-                    "position": "center"
-                },
-                "padding": "0px",
-                "anchor": "",
-                "hideDesktop": false,
-                "_meta": {
-                    "htmlID": "u_row_12",
-                    "htmlClassNames": "u_row"
-                },
-                "selectable": true,
-                "draggable": true,
-                "duplicatable": true,
-                "deletable": true,
-                "hideable": true
-            }
-        }, {
-            "id": "GROb6uve_8",
-            "cells": [1],
-            "columns": [{
-                "id": "gQ6myxkN2H",
-                "contents": [{
-                    "id": "l_ZL_3Sp3Y",
-                    "type": "heading",
-                    "values": {
-                        "containerPadding": "10px",
-                        "anchor": "",
-                        "headingType": "h4",
-                        "fontFamily": {
-                            "label": "Montserrat",
-                            "value": "'Montserrat',sans-serif",
-                            "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-                            "defaultFont": true,
-                            "weights": null
-                        },
-                        "fontWeight": 700,
-                        "fontSize": "16px",
-                        "textAlign": "center",
-                        "lineHeight": "140%",
-                        "linkStyle": {
-                            "inherit": true,
-                            "linkColor": "#0000ee",
-                            "linkHoverColor": "#0000ee",
-                            "linkUnderline": true,
-                            "linkHoverUnderline": true
-                        },
-                        "hideDesktop": false,
-                        "displayCondition": null,
-                        "_meta": {
-                            "htmlID": "u_content_heading_4",
-                            "htmlClassNames": "u_content_heading"
-                        },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true,
-                        "text": "&lt;&lt; About the area or building &gt;&gt;"
-                    }
-                }, {
-                    "id": "Nuw0p9C8BU",
-                    "type": "text",
-                    "values": {
-                        "containerPadding": "10px 10px 10px 25px",
-                        "anchor": "",
-                        "fontFamily": {
-                            "label": "Montserrat",
-                            "value": "'Montserrat',sans-serif",
-                            "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-                            "defaultFont": true,
-                            "weights": null
-                        },
-                        "textAlign": "left",
-                        "lineHeight": "140%",
-                        "linkStyle": {
-                            "inherit": true,
-                            "linkColor": "#0000ee",
-                            "linkHoverColor": "#0000ee",
-                            "linkUnderline": true,
-                            "linkHoverUnderline": true
-                        },
-                        "hideDesktop": false,
-                        "displayCondition": null,
-                        "_meta": {
-                            "htmlID": "u_content_text_8",
-                            "htmlClassNames": "u_content_text"
-                        },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true,
-                        "text": "<p style=\"line-height: 140%;\">Include a description of the area here</p>"
-                    }
-                }],
-                "values": {
-                    "_meta": {
-                        "htmlID": "u_column_19",
-                        "htmlClassNames": "u_column"
-                    },
-                    "border": {
-                        "borderTopStyle": "solid",
-                        "borderTopWidth": "0px",
-                        "borderLeftStyle": "solid",
-                        "borderLeftWidth": "0px",
-                        "borderRightStyle": "solid",
-                        "borderRightWidth": "0px",
-                        "borderBottomStyle": "solid",
-                        "borderBottomWidth": "0px"
-                    },
-                    "padding": "2px",
-                    "borderRadius": "0px",
-                    "backgroundColor": "#ffffff"
-                }
-            }],
-            "values": {
-                "displayCondition": null,
-                "columns": false,
-                "backgroundColor": "",
-                "columnsBackgroundColor": "",
-                "backgroundImage": {
-                    "url": "",
-                    "fullWidth": true,
-                    "repeat": "no-repeat",
-                    "size": "custom",
-                    "position": "center"
-                },
-                "padding": "0px",
-                "anchor": "",
-                "hideDesktop": false,
-                "_meta": {
-                    "htmlID": "u_row_13",
-                    "htmlClassNames": "u_row"
-                },
-                "selectable": true,
-                "draggable": true,
-                "duplicatable": true,
-                "deletable": true,
-                "hideable": true
-            }
-        }, {
-            "id": "B9r9m6liwx",
-            "cells": [1],
-            "columns": [{
-                "id": "58XUPcM-Z-",
-                "contents": [{
-                    "id": "xwJYzspIVI",
-                    "type": "heading",
-                    "values": {
-                        "containerPadding": "10px 10px 10px 25px",
-                        "anchor": "",
-                        "headingType": "h4",
-                        "fontFamily": {
-                            "label": "Montserrat",
-                            "value": "'Montserrat',sans-serif",
-                            "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-                            "defaultFont": true,
-                            "weights": null
-                        },
-                        "fontWeight": 700,
-                        "fontSize": "16px",
-                        "textAlign": "left",
-                        "lineHeight": "140%",
-                        "linkStyle": {
-                            "inherit": true,
-                            "linkColor": "#0000ee",
-                            "linkHoverColor": "#0000ee",
-                            "linkUnderline": true,
-                            "linkHoverUnderline": true
-                        },
-                        "hideDesktop": false,
-                        "displayCondition": null,
-                        "_meta": {
-                            "htmlID": "u_content_heading_5",
-                            "htmlClassNames": "u_content_heading"
-                        },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true,
-                        "text": "Interested? Contact me today"
-                    }
-                }, {
-                    "id": "PYMIXtHIS6",
-                    "type": "text",
-                    "values": {
-                        "containerPadding": "10px 10px 3px 25px",
-                        "anchor": "",
-                        "fontFamily": {
-                            "label": "Montserrat",
-                            "value": "'Montserrat',sans-serif",
-                            "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-                            "defaultFont": true,
-                            "weights": null
-                        },
-                        "fontWeight": 700,
-                        "fontSize": "16px",
-                        "textAlign": "left",
-                        "lineHeight": "140%",
-                        "linkStyle": {
-                            "inherit": true,
-                            "linkColor": "#0000ee",
-                            "linkHoverColor": "#0000ee",
-                            "linkUnderline": true,
-                            "linkHoverUnderline": true
-                        },
-                        "hideDesktop": false,
-                        "displayCondition": null,
-                        "_meta": {
-                            "htmlID": "u_content_text_9",
-                            "htmlClassNames": "u_content_text"
-                        },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true,
-                        "text": "<p style=\"line-height: 140%;\">&lt;Agent Name&gt; </p>"
-                    }
-                }, {
-                    "id": "_A7qvmGrKb",
-                    "type": "text",
-                    "values": {
-                        "containerPadding": "0px 10px 10px 25px",
-                        "anchor": "",
-                        "fontFamily": {
-                            "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-                            "label": "Montserrat",
-                            "value": "'Montserrat',sans-serif",
-                            "weights": null,
-                            "defaultFont": true
-                        },
-                        "textAlign": "left",
-                        "lineHeight": "140%",
-                        "linkStyle": {
-                            "inherit": true,
-                            "linkColor": "#0000ee",
-                            "linkHoverColor": "#0000ee",
-                            "linkUnderline": true,
-                            "linkHoverUnderline": true
-                        },
-                        "hideDesktop": false,
-                        "displayCondition": null,
-                        "_meta": {
-                            "htmlID": "u_content_text_10",
-                            "htmlClassNames": "u_content_text"
-                        },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true,
-                        "text": "<p style=\"line-height: 140%;\">Email: <strong>&lt;agent email&gt; </strong><br />Phone: <strong>&lt;agent phone&gt; </strong></p>"
-                    }
-                }, {
-                    "id": "QgKe0OMM5N",
-                    "type": "button",
-                    "values": {
-                        "containerPadding": "15px",
-                        "anchor": "",
-                        "href": {
-                            "name": "email",
-                            "values": {
-                                "href": "",
-                                "target": "_blank",
-                                "body": "",
-                                "email": "",
-                                "subject": ""
+                "id": "Uyhb3LJsvf",
+                "cells": [1],
+                "columns": [{
+                    "id": "NTN7_8DY83",
+                    "contents": [{
+                        "id": "3WRKIITVli",
+                        "type": "text",
+                        "values": {
+                            "containerPadding": "10px",
+                            "anchor": "",
+                            "fontFamily": {
+                                "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+                                "label": "Montserrat",
+                                "value": "'Montserrat',sans-serif",
+                                "weights": null,
+                                "defaultFont": true
                             },
-                            "attrs": {
-                                "href": "mailto:{{email}}?subject={{subject}}&body={{body}}"
-                            }
-                        },
-                        "buttonColors": {
-                            "color": "#FFFFFF",
-                            "backgroundColor": "#e8194b",
-                            "hoverColor": "#FFFFFF",
-                            "hoverBackgroundColor": "#3AAEE0"
-                        },
-                        "size": {
-                            "autoWidth": true,
-                            "width": "100%"
-                        },
-                        "fontFamily": {
-                            "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-                            "label": "Montserrat",
-                            "value": "'Montserrat',sans-serif",
-                            "weights": null,
-                            "defaultFont": true
-                        },
-                        "fontWeight": 400,
-                        "fontSize": "14px",
-                        "textAlign": "center",
-                        "lineHeight": "120%",
-                        "padding": "10px 20px",
-                        "border": {},
-                        "borderRadius": "4px",
-                        "hideDesktop": false,
-                        "displayCondition": null,
+                            "fontWeight": 700,
+                            "fontSize": "19px",
+                            "color": "#ffffff",
+                            "textAlign": "center",
+                            "lineHeight": "140%",
+                            "linkStyle": {
+                                "inherit": true,
+                                "linkColor": "#0000ee",
+                                "linkHoverColor": "#0000ee",
+                                "linkUnderline": true,
+                                "linkHoverUnderline": true
+                            },
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_text_2",
+                                "htmlClassNames": "u_content_text"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true,
+                            "text": "<p style=\"line-height: 140%;\">&lt;insert headline description of listing&gt;</p>"
+                        }
+                    }],
+                    "values": {
                         "_meta": {
-                            "htmlID": "u_content_button_3",
-                            "htmlClassNames": "u_content_button"
+                            "htmlID": "u_column_2",
+                            "htmlClassNames": "u_column"
                         },
-                        "selectable": true,
-                        "draggable": true,
-                        "duplicatable": true,
-                        "deletable": true,
-                        "hideable": true,
-                        "text": "Contact me today",
-                        "calculatedWidth": 166,
-                        "calculatedHeight": 37
+                        "border": {},
+                        "padding": "0px",
+                        "borderRadius": "0px",
+                        "backgroundColor": ""
                     }
                 }],
                 "values": {
+                    "displayCondition": null,
+                    "columns": false,
+                    "backgroundColor": "",
+                    "columnsBackgroundColor": "#07364b",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": "no-repeat",
+                        "size": "custom",
+                        "position": "center"
+                    },
+                    "padding": "0px",
+                    "anchor": "",
+                    "hideDesktop": false,
                     "_meta": {
-                        "htmlID": "u_column_21",
-                        "htmlClassNames": "u_column"
+                        "htmlID": "u_row_2",
+                        "htmlClassNames": "u_row"
                     },
-                    "border": {
-                        "borderTopStyle": "solid",
-                        "borderTopWidth": "0px",
-                        "borderLeftStyle": "solid",
-                        "borderLeftWidth": "0px",
-                        "borderRightStyle": "solid",
-                        "borderRightWidth": "0px",
-                        "borderBottomStyle": "solid",
-                        "borderBottomWidth": "0px"
+                    "selectable": true,
+                    "draggable": true,
+                    "duplicatable": true,
+                    "deletable": true,
+                    "hideable": true
+                }
+            }, {
+                "id": "Bt_YmBLFgI",
+                "cells": [1],
+                "columns": [{
+                    "id": "kCnvsyjm8U",
+                    "contents": [{
+                        "id": "mNpC3Yu1HR",
+                        "type": "image",
+                        "values": {
+                            "containerPadding": "0px",
+                            "anchor": "",
+                            "src": {
+                                "url": "https://editor.ne16.com/condos/404w_-_565_wilson_ave.jpg",
+                                "width": 2048,
+                                "height": 1365
+                            },
+                            "textAlign": "center",
+                            "altText": "",
+                            "action": {
+                                "name": "web",
+                                "values": {
+                                    "href": "",
+                                    "target": "_blank"
+                                }
+                            },
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_image_2",
+                                "htmlClassNames": "u_content_image"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true
+                        }
+                    }],
+                    "values": {
+                        "_meta": {
+                            "htmlID": "u_column_6",
+                            "htmlClassNames": "u_column"
+                        },
+                        "border": {},
+                        "padding": "0px",
+                        "borderRadius": "0px",
+                        "backgroundColor": ""
+                    }
+                }],
+                "values": {
+                    "displayCondition": null,
+                    "columns": false,
+                    "backgroundColor": "",
+                    "columnsBackgroundColor": "",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": "no-repeat",
+                        "size": "custom",
+                        "position": "center"
                     },
-                    "padding": "2px",
-                    "borderRadius": "0px",
-                    "backgroundColor": "#ffffff"
+                    "padding": "0px",
+                    "anchor": "",
+                    "hideDesktop": false,
+                    "_meta": {
+                        "htmlID": "u_row_3",
+                        "htmlClassNames": "u_row"
+                    },
+                    "selectable": true,
+                    "draggable": true,
+                    "duplicatable": true,
+                    "deletable": true,
+                    "hideable": true
+                }
+            }, {
+                "id": "FEZm_t17SB",
+                "cells": [1],
+                "columns": [{
+                    "id": "wFnpnRck3f",
+                    "contents": [{
+                        "id": "JpFcCI6IXk",
+                        "type": "text",
+                        "values": {
+                            "containerPadding": "10px 10px 10px 25px",
+                            "anchor": "",
+                            "fontFamily": {
+                                "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+                                "label": "Montserrat",
+                                "value": "'Montserrat',sans-serif",
+                                "weights": null,
+                                "defaultFont": true
+                            },
+                            "textAlign": "left",
+                            "lineHeight": "140%",
+                            "linkStyle": {
+                                "inherit": true,
+                                "linkColor": "#0000ee",
+                                "linkHoverColor": "#0000ee",
+                                "linkUnderline": true,
+                                "linkHoverUnderline": true
+                            },
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_text_3",
+                                "htmlClassNames": "u_content_text"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true,
+                            "text": "<p style=\"line-height: 140%;\">Hello {{lead_first_name}},</p>\n<p style=\"line-height: 140%;\"> </p>\n<p style=\"line-height: 140%;\">&lt;&lt; Include 1-2 paragraphs about your listing here &gt;&gt;</p>\n<p style=\"line-height: 140%;\"> </p>\n<p style=\"line-height: 140%;\">Interested? Book a showing today! </p>\n<p style=\"line-height: 140%;\"> </p>"
+                        }
+                    }, {
+                        "id": "s3yPtXymy-",
+                        "type": "button",
+                        "values": {
+                            "containerPadding": "10px",
+                            "anchor": "",
+                            "href": {
+                                "name": "email",
+                                "values": {
+                                    "href": "",
+                                    "target": "_blank",
+                                    "body": "",
+                                    "email": "",
+                                    "subject": ""
+                                },
+                                "attrs": {
+                                    "href": "mailto:{{email}}?subject={{subject}}&body={{body}}"
+                                }
+                            },
+                            "buttonColors": {
+                                "color": "#FFFFFF",
+                                "backgroundColor": "#e8194b",
+                                "hoverColor": "#FFFFFF",
+                                "hoverBackgroundColor": "#3AAEE0"
+                            },
+                            "size": {
+                                "autoWidth": true,
+                                "width": "100%"
+                            },
+                            "fontFamily": {
+                                "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+                                "label": "Montserrat",
+                                "value": "'Montserrat',sans-serif",
+                                "weights": null,
+                                "defaultFont": true
+                            },
+                            "fontSize": "14px",
+                            "textAlign": "center",
+                            "lineHeight": "120%",
+                            "padding": "10px 20px",
+                            "border": {},
+                            "borderRadius": "4px",
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_button_1",
+                                "htmlClassNames": "u_content_button"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true,
+                            "text": "Contact me today",
+                            "calculatedWidth": 166,
+                            "calculatedHeight": 37
+                        }
+                    }],
+                    "values": {
+                        "_meta": {
+                            "htmlID": "u_column_7",
+                            "htmlClassNames": "u_column"
+                        },
+                        "border": {
+                            "borderTopStyle": "solid",
+                            "borderTopWidth": "0px",
+                            "borderLeftStyle": "solid",
+                            "borderLeftWidth": "0px",
+                            "borderRightStyle": "solid",
+                            "borderRightWidth": "0px",
+                            "borderBottomStyle": "solid",
+                            "borderBottomWidth": "0px"
+                        },
+                        "padding": "2px",
+                        "borderRadius": "0px",
+                        "backgroundColor": ""
+                    }
+                }],
+                "values": {
+                    "displayCondition": null,
+                    "columns": false,
+                    "backgroundColor": "",
+                    "columnsBackgroundColor": "",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": "no-repeat",
+                        "size": "custom",
+                        "position": "center"
+                    },
+                    "padding": "0px",
+                    "anchor": "",
+                    "hideDesktop": false,
+                    "_meta": {
+                        "htmlID": "u_row_4",
+                        "htmlClassNames": "u_row"
+                    },
+                    "selectable": true,
+                    "draggable": true,
+                    "duplicatable": true,
+                    "deletable": true,
+                    "hideable": true
+                }
+            }, {
+                "id": "PV8YGM0ia_",
+                "cells": [1],
+                "columns": [{
+                    "id": "5OgV3c3fIk",
+                    "contents": [{
+                        "id": "1kvde4rMDn",
+                        "type": "heading",
+                        "values": {
+                            "containerPadding": "10px",
+                            "anchor": "",
+                            "headingType": "h3",
+                            "fontFamily": {
+                                "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+                                "label": "Montserrat",
+                                "value": "'Montserrat',sans-serif",
+                                "weights": null,
+                                "defaultFont": true
+                            },
+                            "fontWeight": 700,
+                            "fontSize": "18px",
+                            "color": "#ffffff",
+                            "textAlign": "center",
+                            "lineHeight": "140%",
+                            "linkStyle": {
+                                "inherit": true,
+                                "linkColor": "#0000ee",
+                                "linkHoverColor": "#0000ee",
+                                "linkUnderline": true,
+                                "linkHoverUnderline": true
+                            },
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_heading_1",
+                                "htmlClassNames": "u_content_heading"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true,
+                            "text": "Listing Details"
+                        }
+                    }],
+                    "values": {
+                        "_meta": {
+                            "htmlID": "u_column_13",
+                            "htmlClassNames": "u_column"
+                        },
+                        "border": {},
+                        "padding": "0px",
+                        "borderRadius": "0px",
+                        "backgroundColor": ""
+                    }
+                }],
+                "values": {
+                    "displayCondition": null,
+                    "columns": false,
+                    "backgroundColor": "",
+                    "columnsBackgroundColor": "#07364b",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": "no-repeat",
+                        "size": "custom",
+                        "position": "center"
+                    },
+                    "padding": "10px 0px 0px",
+                    "anchor": "",
+                    "hideDesktop": false,
+                    "_meta": {
+                        "htmlID": "u_row_7",
+                        "htmlClassNames": "u_row"
+                    },
+                    "selectable": true,
+                    "draggable": true,
+                    "duplicatable": true,
+                    "deletable": true,
+                    "hideable": true
+                }
+            }, {
+                "id": "tA7h-PvyKJ",
+                "cells": [58.4, 41.6],
+                "columns": [{
+                    "id": "l6KF7dhiTr",
+                    "contents": [{
+                        "id": "I3BJfuTAJa",
+                        "type": "image",
+                        "values": {
+                            "containerPadding": "10px",
+                            "anchor": "",
+                            "src": {
+                                "url": "https://editor.ne16.com/condos/404W_-_565_Wilson_Ave.jpg",
+                                "width": 2048,
+                                "height": 1365
+                            },
+                            "textAlign": "center",
+                            "altText": "",
+                            "action": {
+                                "name": "web",
+                                "values": {
+                                    "href": "",
+                                    "target": "_blank"
+                                }
+                            },
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_image_3",
+                                "htmlClassNames": "u_content_image"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true
+                        }
+                    }],
+                    "values": {
+                        "_meta": {
+                            "htmlID": "u_column_8",
+                            "htmlClassNames": "u_column"
+                        },
+                        "border": {},
+                        "padding": "0px",
+                        "borderRadius": "0px",
+                        "backgroundColor": "#ffffff"
+                    }
+                }, {
+                    "id": "1rWDN3KXH_",
+                    "contents": [{
+                        "id": "17I7DQjL2E",
+                        "type": "text",
+                        "values": {
+                            "containerPadding": "10px",
+                            "anchor": "",
+                            "fontFamily": {
+                                "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+                                "label": "Montserrat",
+                                "value": "'Montserrat',sans-serif",
+                                "weights": null,
+                                "defaultFont": true
+                            },
+                            "fontWeight": 700,
+                            "fontSize": "21px",
+                            "textAlign": "left",
+                            "lineHeight": "140%",
+                            "linkStyle": {
+                                "inherit": true,
+                                "linkColor": "#0000ee",
+                                "linkHoverColor": "#0000ee",
+                                "linkUnderline": true,
+                                "linkHoverUnderline": true
+                            },
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_text_5",
+                                "htmlClassNames": "u_content_text"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true,
+                            "text": "<p style=\"line-height: 140%;\">$XXX,XXX</p>"
+                        }
+                    }, {
+                        "id": "OJn_Q0USd0",
+                        "type": "text",
+                        "values": {
+                            "containerPadding": "0px 10px",
+                            "anchor": "",
+                            "fontFamily": {
+                                "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+                                "label": "Montserrat",
+                                "value": "'Montserrat',sans-serif",
+                                "weights": null,
+                                "defaultFont": true
+                            },
+                            "fontWeight": 400,
+                            "fontSize": "14px",
+                            "textAlign": "left",
+                            "lineHeight": "140%",
+                            "linkStyle": {
+                                "inherit": true,
+                                "linkColor": "#0000ee",
+                                "linkHoverColor": "#0000ee",
+                                "linkUnderline": true,
+                                "linkHoverUnderline": true
+                            },
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_text_7",
+                                "htmlClassNames": "u_content_text"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true,
+                            "text": "<p style=\"line-height: 140%;\"><span style=\"color: #236fa1; line-height: 19.6px;\">Address Here</span></p>"
+                        }
+                    }, {
+                        "id": "ouslXULNHT",
+                        "type": "text",
+                        "values": {
+                            "containerPadding": "1px 10px 10px",
+                            "anchor": "",
+                            "fontFamily": {
+                                "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+                                "label": "Montserrat",
+                                "value": "'Montserrat',sans-serif",
+                                "weights": null,
+                                "defaultFont": true
+                            },
+                            "textAlign": "left",
+                            "lineHeight": "140%",
+                            "linkStyle": {
+                                "inherit": true,
+                                "linkColor": "#0000ee",
+                                "linkHoverColor": "#0000ee",
+                                "linkUnderline": true,
+                                "linkHoverUnderline": true
+                            },
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_text_4",
+                                "htmlClassNames": "u_content_text"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true,
+                            "text": "<p style=\"line-height: 140%;\">X Bed | X Bath | X Parking<br />XXXX sqft</p>\n<p style=\"line-height: 140%;\"> </p>\n<p style=\"line-height: 140%;\">Exposure: XX<br />Area: XX</p>"
+                        }
+                    }, {
+                        "id": "8jDyPmtPkW",
+                        "type": "text",
+                        "values": {
+                            "containerPadding": "0px 10px 5px",
+                            "anchor": "",
+                            "fontFamily": {
+                                "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+                                "label": "Montserrat",
+                                "value": "'Montserrat',sans-serif",
+                                "weights": null,
+                                "defaultFont": true
+                            },
+                            "fontWeight": 700,
+                            "fontSize": "14px",
+                            "textAlign": "left",
+                            "lineHeight": "140%",
+                            "linkStyle": {
+                                "inherit": true,
+                                "linkColor": "#0000ee",
+                                "linkHoverColor": "#0000ee",
+                                "linkUnderline": true,
+                                "linkHoverUnderline": true
+                            },
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_text_6",
+                                "htmlClassNames": "u_content_text"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true,
+                            "text": "<p style=\"line-height: 140%;\"><span style=\"color: #236fa1; line-height: 19.6px;\">Request a viewing</span></p>"
+                        }
+                    }],
+                    "values": {
+                        "_meta": {
+                            "htmlID": "u_column_9",
+                            "htmlClassNames": "u_column"
+                        },
+                        "border": {},
+                        "padding": "0px",
+                        "borderRadius": "0px",
+                        "backgroundColor": "#ffffff"
+                    }
+                }],
+                "values": {
+                    "displayCondition": null,
+                    "columns": false,
+                    "backgroundColor": "",
+                    "columnsBackgroundColor": "",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": "no-repeat",
+                        "size": "custom",
+                        "position": "center"
+                    },
+                    "padding": "0px",
+                    "anchor": "",
+                    "hideDesktop": false,
+                    "_meta": {
+                        "htmlID": "u_row_5",
+                        "htmlClassNames": "u_row"
+                    },
+                    "selectable": true,
+                    "draggable": true,
+                    "duplicatable": true,
+                    "deletable": true,
+                    "hideable": true
+                }
+            }, {
+                "id": "Y7nBTicU9a",
+                "cells": [1, 1, 1],
+                "columns": [{
+                    "id": "LzF63xHRop",
+                    "contents": [{
+                        "id": "ywMX8IGc0G",
+                        "type": "image",
+                        "values": {
+                            "containerPadding": "5px",
+                            "anchor": "",
+                            "src": {
+                                "url": "https://editor.ne16.com/condos/404w_-_565_wilson_ave_-_2.jpg",
+                                "width": 2048,
+                                "height": 1365
+                            },
+                            "textAlign": "center",
+                            "altText": "",
+                            "action": {
+                                "name": "web",
+                                "values": {
+                                    "href": "",
+                                    "target": "_blank"
+                                }
+                            },
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_image_4",
+                                "htmlClassNames": "u_content_image"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true
+                        }
+                    }],
+                    "values": {
+                        "_meta": {
+                            "htmlID": "u_column_10",
+                            "htmlClassNames": "u_column"
+                        },
+                        "border": {},
+                        "padding": "0px 0px 10px",
+                        "_override": {
+                            "mobile": {
+                                "padding": "0px"
+                            }
+                        },
+                        "borderRadius": "0px",
+                        "backgroundColor": ""
+                    }
+                }, {
+                    "id": "vp2gRi05bG",
+                    "contents": [{
+                        "id": "ibqBlg3bu6",
+                        "type": "image",
+                        "values": {
+                            "containerPadding": "5px",
+                            "anchor": "",
+                            "src": {
+                                "url": "https://editor.ne16.com/condos/a2358b7eed5c57a85709b33e889bb6ed.png",
+                                "width": 2048,
+                                "height": 1297
+                            },
+                            "textAlign": "center",
+                            "altText": "",
+                            "action": {
+                                "name": "web",
+                                "values": {
+                                    "href": "",
+                                    "target": "_blank"
+                                }
+                            },
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_image_5",
+                                "htmlClassNames": "u_content_image"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true
+                        }
+                    }],
+                    "values": {
+                        "_meta": {
+                            "htmlID": "u_column_11",
+                            "htmlClassNames": "u_column"
+                        },
+                        "border": {},
+                        "padding": "0px",
+                        "borderRadius": "0px",
+                        "backgroundColor": ""
+                    }
+                }, {
+                    "id": "P-oJxoRzzw",
+                    "contents": [{
+                        "id": "-4rqeSmnoc",
+                        "type": "image",
+                        "values": {
+                            "containerPadding": "5px",
+                            "anchor": "",
+                            "src": {
+                                "url": "https://editor.ne16.com/condos/404w_-_565_wilson_ave-8.jpg",
+                                "width": 2048,
+                                "height": 1365
+                            },
+                            "textAlign": "center",
+                            "altText": "",
+                            "action": {
+                                "name": "web",
+                                "values": {
+                                    "href": "",
+                                    "target": "_blank"
+                                }
+                            },
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_image_6",
+                                "htmlClassNames": "u_content_image"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true
+                        }
+                    }],
+                    "values": {
+                        "_meta": {
+                            "htmlID": "u_column_12",
+                            "htmlClassNames": "u_column"
+                        },
+                        "border": {},
+                        "padding": "0px",
+                        "borderRadius": "0px",
+                        "backgroundColor": ""
+                    }
+                }],
+                "values": {
+                    "displayCondition": null,
+                    "columns": false,
+                    "backgroundColor": "",
+                    "columnsBackgroundColor": "#ffffff",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": "no-repeat",
+                        "size": "custom",
+                        "position": "center"
+                    },
+                    "padding": "0px",
+                    "anchor": "",
+                    "hideDesktop": false,
+                    "_meta": {
+                        "htmlID": "u_row_6",
+                        "htmlClassNames": "u_row"
+                    },
+                    "selectable": true,
+                    "draggable": true,
+                    "duplicatable": true,
+                    "deletable": true,
+                    "hideable": true
+                }
+            }, {
+                "id": "DxBz88bsPQ",
+                "cells": [1],
+                "columns": [{
+                    "id": "8fR9Bp7sgp",
+                    "contents": [{
+                        "id": "BNJi5vwjp5",
+                        "type": "heading",
+                        "values": {
+                            "containerPadding": "10px",
+                            "anchor": "",
+                            "headingType": "h3",
+                            "fontFamily": {
+                                "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+                                "label": "Montserrat",
+                                "value": "'Montserrat',sans-serif",
+                                "weights": null,
+                                "defaultFont": true
+                            },
+                            "fontWeight": 700,
+                            "fontSize": "18px",
+                            "color": "#ffffff",
+                            "textAlign": "center",
+                            "lineHeight": "140%",
+                            "linkStyle": {
+                                "inherit": true,
+                                "linkColor": "#0000ee",
+                                "linkHoverColor": "#0000ee",
+                                "linkUnderline": true,
+                                "linkHoverUnderline": true
+                            },
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_heading_2",
+                                "htmlClassNames": "u_content_heading"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true,
+                            "text": "3D Tour"
+                        }
+                    }],
+                    "values": {
+                        "_meta": {
+                            "htmlID": "u_column_14",
+                            "htmlClassNames": "u_column"
+                        },
+                        "border": {},
+                        "padding": "0px",
+                        "borderRadius": "0px",
+                        "backgroundColor": ""
+                    }
+                }],
+                "values": {
+                    "displayCondition": null,
+                    "columns": false,
+                    "backgroundColor": "",
+                    "columnsBackgroundColor": "#07364b",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": "no-repeat",
+                        "size": "custom",
+                        "position": "center"
+                    },
+                    "padding": "10px 0px 0px",
+                    "anchor": "",
+                    "hideDesktop": false,
+                    "_meta": {
+                        "htmlID": "u_row_8",
+                        "htmlClassNames": "u_row"
+                    },
+                    "selectable": true,
+                    "draggable": true,
+                    "duplicatable": true,
+                    "deletable": true,
+                    "hideable": true
+                }
+            }, {
+                "id": "jXkh5rqiZw",
+                "cells": [1],
+                "columns": [{
+                    "id": "-iJA1UhdNg",
+                    "contents": [{
+                        "id": "3mpgoeSr_b",
+                        "type": "image",
+                        "values": {
+                            "containerPadding": "20px",
+                            "anchor": "",
+                            "src": {
+                                "url": "https://editor.ne16.com/condos/Video-tour.jpg",
+                                "width": 1361,
+                                "height": 628
+                            },
+                            "textAlign": "center",
+                            "altText": "",
+                            "action": {
+                                "name": "web",
+                                "values": {
+                                    "href": "",
+                                    "target": "_blank"
+                                }
+                            },
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_image_7",
+                                "htmlClassNames": "u_content_image"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true
+                        }
+                    }],
+                    "values": {
+                        "_meta": {
+                            "htmlID": "u_column_16",
+                            "htmlClassNames": "u_column"
+                        },
+                        "border": {},
+                        "padding": "0px",
+                        "borderRadius": "0px",
+                        "backgroundColor": ""
+                    }
+                }],
+                "values": {
+                    "displayCondition": null,
+                    "columns": false,
+                    "backgroundColor": "",
+                    "columnsBackgroundColor": "#ffffff",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": "no-repeat",
+                        "size": "custom",
+                        "position": "center"
+                    },
+                    "padding": "0px",
+                    "anchor": "",
+                    "hideDesktop": false,
+                    "_meta": {
+                        "htmlID": "u_row_10",
+                        "htmlClassNames": "u_row"
+                    },
+                    "selectable": true,
+                    "draggable": true,
+                    "duplicatable": true,
+                    "deletable": true,
+                    "hideable": true
+                }
+            }, {
+                "id": "Gh2DFwTUZ9",
+                "cells": [1],
+                "columns": [{
+                    "id": "CBo_5dxqSC",
+                    "contents": [{
+                        "id": "N5FgZO9Ycc",
+                        "type": "heading",
+                        "values": {
+                            "containerPadding": "10px",
+                            "anchor": "",
+                            "headingType": "h3",
+                            "fontFamily": {
+                                "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+                                "label": "Montserrat",
+                                "value": "'Montserrat',sans-serif",
+                                "weights": null,
+                                "defaultFont": true
+                            },
+                            "fontWeight": 700,
+                            "fontSize": "18px",
+                            "color": "#ffffff",
+                            "textAlign": "center",
+                            "lineHeight": "140%",
+                            "linkStyle": {
+                                "inherit": true,
+                                "linkColor": "#0000ee",
+                                "linkHoverColor": "#0000ee",
+                                "linkUnderline": true,
+                                "linkHoverUnderline": true
+                            },
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_heading_3",
+                                "htmlClassNames": "u_content_heading"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true,
+                            "text": "Location"
+                        }
+                    }],
+                    "values": {
+                        "_meta": {
+                            "htmlID": "u_column_17",
+                            "htmlClassNames": "u_column"
+                        },
+                        "border": {},
+                        "padding": "0px",
+                        "borderRadius": "0px",
+                        "backgroundColor": ""
+                    }
+                }],
+                "values": {
+                    "displayCondition": null,
+                    "columns": false,
+                    "backgroundColor": "",
+                    "columnsBackgroundColor": "#07364b",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": "no-repeat",
+                        "size": "custom",
+                        "position": "center"
+                    },
+                    "padding": "10px 0px 0px",
+                    "anchor": "",
+                    "hideDesktop": false,
+                    "_meta": {
+                        "htmlID": "u_row_11",
+                        "htmlClassNames": "u_row"
+                    },
+                    "selectable": true,
+                    "draggable": true,
+                    "duplicatable": true,
+                    "deletable": true,
+                    "hideable": true
+                }
+            }, {
+                "id": "Gtjt8jboOl",
+                "cells": [1],
+                "columns": [{
+                    "id": "jQwqOVnhKH",
+                    "contents": [{
+                        "id": "AGhbJLQuZj",
+                        "type": "image",
+                        "values": {
+                            "containerPadding": "20px",
+                            "anchor": "",
+                            "src": {
+                                "url": "https://editor.ne16.com/condos/the-station-condos-555-565-wilson-ave-original-2.jpeg",
+                                "width": 1600,
+                                "height": 1068
+                            },
+                            "textAlign": "center",
+                            "altText": "",
+                            "action": {
+                                "name": "web",
+                                "values": {
+                                    "href": "",
+                                    "target": "_blank"
+                                }
+                            },
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_image_8",
+                                "htmlClassNames": "u_content_image"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true
+                        }
+                    }],
+                    "values": {
+                        "_meta": {
+                            "htmlID": "u_column_18",
+                            "htmlClassNames": "u_column"
+                        },
+                        "border": {},
+                        "padding": "0px",
+                        "borderRadius": "0px",
+                        "backgroundColor": ""
+                    }
+                }],
+                "values": {
+                    "displayCondition": null,
+                    "columns": false,
+                    "backgroundColor": "",
+                    "columnsBackgroundColor": "#ffffff",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": "no-repeat",
+                        "size": "custom",
+                        "position": "center"
+                    },
+                    "padding": "0px",
+                    "anchor": "",
+                    "hideDesktop": false,
+                    "_meta": {
+                        "htmlID": "u_row_12",
+                        "htmlClassNames": "u_row"
+                    },
+                    "selectable": true,
+                    "draggable": true,
+                    "duplicatable": true,
+                    "deletable": true,
+                    "hideable": true
+                }
+            }, {
+                "id": "GROb6uve_8",
+                "cells": [1],
+                "columns": [{
+                    "id": "gQ6myxkN2H",
+                    "contents": [{
+                        "id": "l_ZL_3Sp3Y",
+                        "type": "heading",
+                        "values": {
+                            "containerPadding": "10px",
+                            "anchor": "",
+                            "headingType": "h4",
+                            "fontFamily": {
+                                "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+                                "label": "Montserrat",
+                                "value": "'Montserrat',sans-serif",
+                                "weights": null,
+                                "defaultFont": true
+                            },
+                            "fontWeight": 700,
+                            "fontSize": "16px",
+                            "textAlign": "center",
+                            "lineHeight": "140%",
+                            "linkStyle": {
+                                "inherit": true,
+                                "linkColor": "#0000ee",
+                                "linkHoverColor": "#0000ee",
+                                "linkUnderline": true,
+                                "linkHoverUnderline": true
+                            },
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_heading_4",
+                                "htmlClassNames": "u_content_heading"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true,
+                            "text": "&lt;&lt; About the area or building &gt;&gt;"
+                        }
+                    }, {
+                        "id": "Nuw0p9C8BU",
+                        "type": "text",
+                        "values": {
+                            "containerPadding": "10px 10px 10px 25px",
+                            "anchor": "",
+                            "fontFamily": {
+                                "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+                                "label": "Montserrat",
+                                "value": "'Montserrat',sans-serif",
+                                "weights": null,
+                                "defaultFont": true
+                            },
+                            "textAlign": "left",
+                            "lineHeight": "140%",
+                            "linkStyle": {
+                                "inherit": true,
+                                "linkColor": "#0000ee",
+                                "linkHoverColor": "#0000ee",
+                                "linkUnderline": true,
+                                "linkHoverUnderline": true
+                            },
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_text_8",
+                                "htmlClassNames": "u_content_text"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true,
+                            "text": "<p style=\"line-height: 140%;\">Include a description of the area here</p>"
+                        }
+                    }],
+                    "values": {
+                        "_meta": {
+                            "htmlID": "u_column_19",
+                            "htmlClassNames": "u_column"
+                        },
+                        "border": {
+                            "borderTopStyle": "solid",
+                            "borderTopWidth": "0px",
+                            "borderLeftStyle": "solid",
+                            "borderLeftWidth": "0px",
+                            "borderRightStyle": "solid",
+                            "borderRightWidth": "0px",
+                            "borderBottomStyle": "solid",
+                            "borderBottomWidth": "0px"
+                        },
+                        "padding": "2px",
+                        "borderRadius": "0px",
+                        "backgroundColor": "#ffffff"
+                    }
+                }],
+                "values": {
+                    "displayCondition": null,
+                    "columns": false,
+                    "backgroundColor": "",
+                    "columnsBackgroundColor": "",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": "no-repeat",
+                        "size": "custom",
+                        "position": "center"
+                    },
+                    "padding": "0px",
+                    "anchor": "",
+                    "hideDesktop": false,
+                    "_meta": {
+                        "htmlID": "u_row_13",
+                        "htmlClassNames": "u_row"
+                    },
+                    "selectable": true,
+                    "draggable": true,
+                    "duplicatable": true,
+                    "deletable": true,
+                    "hideable": true
+                }
+            }, {
+                "id": "B9r9m6liwx",
+                "cells": [1],
+                "columns": [{
+                    "id": "58XUPcM-Z-",
+                    "contents": [{
+                        "id": "xwJYzspIVI",
+                        "type": "heading",
+                        "values": {
+                            "containerPadding": "10px 10px 10px 25px",
+                            "anchor": "",
+                            "headingType": "h4",
+                            "fontFamily": {
+                                "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+                                "label": "Montserrat",
+                                "value": "'Montserrat',sans-serif",
+                                "weights": null,
+                                "defaultFont": true
+                            },
+                            "fontWeight": 700,
+                            "fontSize": "16px",
+                            "textAlign": "left",
+                            "lineHeight": "140%",
+                            "linkStyle": {
+                                "inherit": true,
+                                "linkColor": "#0000ee",
+                                "linkHoverColor": "#0000ee",
+                                "linkUnderline": true,
+                                "linkHoverUnderline": true
+                            },
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_heading_5",
+                                "htmlClassNames": "u_content_heading"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true,
+                            "text": "Interested? Contact me today"
+                        }
+                    }, {
+                        "id": "PYMIXtHIS6",
+                        "type": "text",
+                        "values": {
+                            "containerPadding": "10px 10px 3px 25px",
+                            "anchor": "",
+                            "fontFamily": {
+                                "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+                                "label": "Montserrat",
+                                "value": "'Montserrat',sans-serif",
+                                "weights": null,
+                                "defaultFont": true
+                            },
+                            "fontWeight": 700,
+                            "fontSize": "16px",
+                            "textAlign": "left",
+                            "lineHeight": "140%",
+                            "linkStyle": {
+                                "inherit": true,
+                                "linkColor": "#0000ee",
+                                "linkHoverColor": "#0000ee",
+                                "linkUnderline": true,
+                                "linkHoverUnderline": true
+                            },
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_text_9",
+                                "htmlClassNames": "u_content_text"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true,
+                            "text": "<p style=\"line-height: 140%;\">{{agent_full_name}}</p>"
+                        }
+                    }, {
+                        "id": "_A7qvmGrKb",
+                        "type": "text",
+                        "values": {
+                            "containerPadding": "0px 10px 10px 25px",
+                            "anchor": "",
+                            "fontFamily": {
+                                "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+                                "label": "Montserrat",
+                                "value": "'Montserrat',sans-serif",
+                                "weights": null,
+                                "defaultFont": true
+                            },
+                            "textAlign": "left",
+                            "lineHeight": "140%",
+                            "linkStyle": {
+                                "inherit": true,
+                                "linkColor": "#0000ee",
+                                "linkHoverColor": "#0000ee",
+                                "linkUnderline": true,
+                                "linkHoverUnderline": true
+                            },
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_text_10",
+                                "htmlClassNames": "u_content_text"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true,
+                            "text": "<p style=\"line-height: 140%;\">Email: <strong>{{lead_first_name}}</strong><br />Phone: <strong>{{agent_phone}} </strong></p>"
+                        }
+                    }, {
+                        "id": "QgKe0OMM5N",
+                        "type": "button",
+                        "values": {
+                            "containerPadding": "15px",
+                            "anchor": "",
+                            "href": {
+                                "name": "email",
+                                "values": {
+                                    "href": "",
+                                    "target": "_blank",
+                                    "body": "",
+                                    "email": "",
+                                    "subject": ""
+                                },
+                                "attrs": {
+                                    "href": "mailto:{{email}}?subject={{subject}}&body={{body}}"
+                                }
+                            },
+                            "buttonColors": {
+                                "color": "#FFFFFF",
+                                "backgroundColor": "#e8194b",
+                                "hoverColor": "#FFFFFF",
+                                "hoverBackgroundColor": "#3AAEE0"
+                            },
+                            "size": {
+                                "autoWidth": true,
+                                "width": "100%"
+                            },
+                            "fontFamily": {
+                                "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+                                "label": "Montserrat",
+                                "value": "'Montserrat',sans-serif",
+                                "weights": null,
+                                "defaultFont": true
+                            },
+                            "fontWeight": 400,
+                            "fontSize": "14px",
+                            "textAlign": "center",
+                            "lineHeight": "120%",
+                            "padding": "10px 20px",
+                            "border": {},
+                            "borderRadius": "4px",
+                            "hideDesktop": false,
+                            "displayCondition": null,
+                            "_meta": {
+                                "htmlID": "u_content_button_3",
+                                "htmlClassNames": "u_content_button"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true,
+                            "hideable": true,
+                            "text": "Contact me today",
+                            "calculatedWidth": 166,
+                            "calculatedHeight": 37
+                        }
+                    }],
+                    "values": {
+                        "_meta": {
+                            "htmlID": "u_column_21",
+                            "htmlClassNames": "u_column"
+                        },
+                        "border": {
+                            "borderTopStyle": "solid",
+                            "borderTopWidth": "0px",
+                            "borderLeftStyle": "solid",
+                            "borderLeftWidth": "0px",
+                            "borderRightStyle": "solid",
+                            "borderRightWidth": "0px",
+                            "borderBottomStyle": "solid",
+                            "borderBottomWidth": "0px"
+                        },
+                        "padding": "2px",
+                        "borderRadius": "0px",
+                        "backgroundColor": "#ffffff"
+                    }
+                }],
+                "values": {
+                    "displayCondition": null,
+                    "columns": false,
+                    "backgroundColor": "",
+                    "columnsBackgroundColor": "",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": "no-repeat",
+                        "size": "custom",
+                        "position": "center"
+                    },
+                    "padding": "10px 0px 0px",
+                    "anchor": "",
+                    "hideDesktop": false,
+                    "_meta": {
+                        "htmlID": "u_row_15",
+                        "htmlClassNames": "u_row"
+                    },
+                    "selectable": true,
+                    "draggable": true,
+                    "duplicatable": true,
+                    "deletable": true,
+                    "hideable": true
                 }
             }],
             "values": {
-                "displayCondition": null,
-                "columns": false,
-                "backgroundColor": "",
-                "columnsBackgroundColor": "",
+                "popupPosition": "center",
+                "popupWidth": "600px",
+                "popupHeight": "auto",
+                "borderRadius": "10px",
+                "contentAlign": "center",
+                "contentVerticalAlign": "center",
+                "contentWidth": 600,
+                "fontFamily": {
+                    "label": "Montserrat",
+                    "value": "'Montserrat',sans-serif",
+                    "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+                    "weights": null,
+                    "defaultFont": true
+                },
+                "textColor": "#000000",
+                "popupBackgroundColor": "#FFFFFF",
+                "popupBackgroundImage": {
+                    "url": "",
+                    "fullWidth": true,
+                    "repeat": "no-repeat",
+                    "size": "cover",
+                    "position": "center"
+                },
+                "popupOverlay_backgroundColor": "rgba(0, 0, 0, 0.1)",
+                "popupCloseButton_position": "top-right",
+                "popupCloseButton_backgroundColor": "#DDDDDD",
+                "popupCloseButton_iconColor": "#000000",
+                "popupCloseButton_borderRadius": "0px",
+                "popupCloseButton_margin": "0px",
+                "popupCloseButton_action": {
+                    "name": "close_popup",
+                    "attrs": {
+                        "onClick": "document.querySelector('.u-popup-container').style.display = 'none';"
+                    }
+                },
+                "backgroundColor": "#ffffff",
                 "backgroundImage": {
                     "url": "",
                     "fullWidth": true,
@@ -1602,75 +1660,21 @@ function loadTemplate(id) {
                     "size": "custom",
                     "position": "center"
                 },
-                "padding": "10px 0px 0px",
-                "anchor": "",
-                "hideDesktop": false,
-                "_meta": {
-                    "htmlID": "u_row_15",
-                    "htmlClassNames": "u_row"
+                "preheaderText": "",
+                "linkStyle": {
+                    "body": true,
+                    "linkColor": "#236fa1",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true,
+                    "inherit": false
                 },
-                "selectable": true,
-                "draggable": true,
-                "duplicatable": true,
-                "deletable": true,
-                "hideable": true
-            }
-        }],
-        "values": {
-            "popupPosition": "center",
-            "popupWidth": "600px",
-            "popupHeight": "auto",
-            "borderRadius": "10px",
-            "contentAlign": "center",
-            "contentVerticalAlign": "center",
-            "contentWidth": "500px",
-            "fontFamily": {
-                "label": "Arial",
-                "value": "arial,helvetica,sans-serif"
-            },
-            "textColor": "#000000",
-            "popupBackgroundColor": "#FFFFFF",
-            "popupBackgroundImage": {
-                "url": "",
-                "fullWidth": true,
-                "repeat": "no-repeat",
-                "size": "cover",
-                "position": "center"
-            },
-            "popupOverlay_backgroundColor": "rgba(0, 0, 0, 0.1)",
-            "popupCloseButton_position": "top-right",
-            "popupCloseButton_backgroundColor": "#DDDDDD",
-            "popupCloseButton_iconColor": "#000000",
-            "popupCloseButton_borderRadius": "0px",
-            "popupCloseButton_margin": "0px",
-            "popupCloseButton_action": {
-                "name": "close_popup",
-                "attrs": {
-                    "onClick": "document.querySelector('.u-popup-container').style.display = 'none';"
+                "_meta": {
+                    "htmlID": "u_body",
+                    "htmlClassNames": "u_body"
                 }
-            },
-            "backgroundColor": "#e7e7e7",
-            "backgroundImage": {
-                "url": "",
-                "fullWidth": true,
-                "repeat": "no-repeat",
-                "size": "custom",
-                "position": "center"
-            },
-            "preheaderText": "",
-            "linkStyle": {
-                "body": true,
-                "linkColor": "#0000ee",
-                "linkHoverColor": "#0000ee",
-                "linkUnderline": true,
-                "linkHoverUnderline": true
-            },
-            "_meta": {
-                "htmlID": "u_body",
-                "htmlClassNames": "u_body"
             }
-        }
-    },
+        },
     });
   }
 
